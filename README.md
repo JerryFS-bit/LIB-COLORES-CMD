@@ -22,7 +22,8 @@ La función **CPRINT()** recibe los siguientes valores:
 * Azul Cielo
 
 Un ejemplo claro es el siguiente :
-**cprint("TEXTO COLOR BLANCO Y FONDO AZUL","blanco","azul");**
+![IMAGE NOT FOUND](/image/main.png)
 
 La salida en consola será la siguiente:
+![IMAGE NOT FOUND](/image/output_main.png)
 

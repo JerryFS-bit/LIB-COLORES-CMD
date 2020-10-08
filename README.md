@@ -22,7 +22,40 @@ La función **CPRINT()** recibe los siguientes valores:
 * Azul Cielo
 
 Un ejemplo claro es el siguiente :
-![IMAGE NOT FOUND](/image/main.png)
+~~~
+auto main() -> int {
+    cprint("TEXTO COLOR AZUL Y FONDO AZUL","azul","blanco");
+    cprint("TEXTO COLOR AZUL Y FONDO ROJO","azul","rojo");
+    cprint("TEXTO COLOR AZUL Y FONDO VERDE","azul","verde");
+    cprint("TEXTO COLOR AZUL Y FONDO NARANJA","azul","naranja");
+    cprint("TEXTO COLOR AZUL Y FONDO AZUL CIELO","azul","azul cielo");
+    cprint("TEXTO COLOR AZUL Y FONDO MORADO","azul","morado");
+
+    cprint("TEXTO COLOR BLANCO Y FONDO AZUL","blanco","azul");
+    cprint("TEXTO COLOR BLANCO Y FONDO ROJO","blanco","rojo");
+    cprint("TEXTO COLOR BLANCO Y FONDO VERDE","blanco","verde");
+    cprint("TEXTO COLOR BLANCO Y FONDO NARANJA","blanco","naranja");
+    cprint("TEXTO COLOR BLANCO Y FONDO AZUL CIELO","blanco","azul cielo");
+    cprint("TEXTO COLOR BLANCO Y FONDO MORADO","blanco","morado");
+
+    cprint("TEXTO COLOR ROJO Y FONDO AZUL","rojo","azul");
+    cprint("TEXTO COLOR ROJO Y FONDO BLANCO","rojo","blanco");
+    cprint("TEXTO COLOR ROJO Y FONDO VERDE","rojo","verde");
+    cprint("TEXTO COLOR ROJO Y FONDO NARANJA","rojo","naranja");
+    cprint("TEXTO COLOR ROJO Y FONDO AZUL CIELO","rojo","azul cielo");
+    cprint("TEXTO COLOR ROJO Y FONDO MORADO","rojo","morado");
+
+    cprint("TEXTO COLOR VERDE Y FONDO AZUL","verde","azul");
+    cprint("TEXTO COLOR VERDE Y FONDO BLANCO","verde","blanco");
+    cprint("TEXTO COLOR VERDE Y FONDO BLANCO","verde","rojo");
+    cprint("TEXTO COLOR VERDE Y FONDO NARANJA","verde","naranja");
+    cprint("TEXTO COLOR VERDE Y FONDO AZUL CIELO","verde","azul cielo");
+    cprint("TEXTO COLOR VERDE Y FONDO MORADO","verde","morado");
+
+    system("pause > NULL");
+    return 0;
+}
+~~~
 
 La salida en consola será la siguiente:
 ![IMAGE NOT FOUND](/image/output_main.png)

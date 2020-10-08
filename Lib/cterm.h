@@ -5,8 +5,8 @@
 #include <windows.h>
 #include <iostream>
 
-#ifndef UNTITLED_CTERM_H
-#define UNTITLED_CTERM_H
+#ifndef __CTERM_H__
+#define __CTERM_H__
 
 using namespace std;
 

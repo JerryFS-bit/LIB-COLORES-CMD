@@ -58,5 +58,6 @@ auto main() -> int {
 ~~~
 
 La salida en consola será la siguiente:
+
 ![IMAGE NOT FOUND](/image/output_main.png)
 

@@ -21,7 +21,7 @@ La función **CPRINT()** recibe los siguientes valores:
 * Verde
 * Azul Cielo
 
-Un ejemplo claro es el siguiente :
+## Un ejemplo claro es el siguiente :
 ~~~
 auto main() -> int {
     cprint("TEXTO COLOR AZUL Y FONDO AZUL","azul","blanco");
@@ -57,7 +57,7 @@ auto main() -> int {
 }
 ~~~
 
-La salida en consola será la siguiente:
+## La salida en consola será la siguiente:
 
 ![IMAGE NOT FOUND](/image/output_main.png)
 

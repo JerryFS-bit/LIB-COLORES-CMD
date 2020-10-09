@@ -1,4 +1,4 @@
-## lib_Colores_Terminal_Windows_C++
+## lib Colores Terminal Windows C++
 ## Diseña programas basado en consola con mucho mas color con esta pequeña pero útil librería
 
 ## Dentro de esta se encuentran funciones para posicionar texto en la terminal o tener la opción de solo mover el texto a una posición sin modificar su color original.

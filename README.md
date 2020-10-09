@@ -3,11 +3,9 @@
 
 ## Dentro de esta se encuentran funciones para posicionar texto en la terminal o tener la opción de solo mover el texto a una posición sin modificar su color original.
 
-La función **CPRINT()** recibe los siguientes valores: 
+La función **CPRINT()** recibe los siguientes valores:
 
-**C**[Color] -> **PRINT**[impresión] = **CPRINT** = *impresión con color*
-
-**cprint(const string &Text, const string &ForeGround="blanco", const string &BackGround="null");**
+**cprint(Text, ForeGround="blanco", BackGround="null");**
 
 * **Text**        -> "Texto que se va a mostrar en consola"
 * **ForeGround**  -> "Color de letra que se la va a aplicar"
@@ -67,7 +65,7 @@ auto main() -> int {
 
 La función **CPRINTP()** recibe los siguientes valores: 
 
-**cprintp(const string &Text, int PosX, int PosY, const string &ForeGround="blanco", const string &BackGround="null");**
+**cprintp(Text, PosX, PosY, ForeGround="blanco", BackGround="null");**
 
 * **Text**        -> "Texto que se va a mostrar en consola"
 * **PosX**        -> "Posicion del Texto en el eje X"

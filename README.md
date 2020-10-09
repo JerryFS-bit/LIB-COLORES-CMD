@@ -3,6 +3,28 @@
 
 ## Dentro de esta se encuentran funciones para posicionar texto en la terminal o tener la opción de solo mover el texto a una posición sin modificar su color original.
 
+## Para el IDE CLION se debe agregar/modificar las siguientes lineas del archivo "CMakeLists.txt".
+~~~
+set(CMAKE_CXX_STANDARD 20)
+add_executable(<NOMBRE DEL PROYECTO> <NOMBRE DEL MAIN.CPP> cterm.h cterm.cpp)
+~~~
+
+## Ejemplo para este proyecto.
+~~~
+cmake_minimum_required(VERSION 3.17)
+project(LIB-COLOR)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(LIB-COLOR main.cpp cterm.h cterm.cpp)
+~~~
+
+* El proyecto se llama LIB-COLOR
+* El archivo principal es main.cpp
+
+Ademas deberas copiar los archivos de la carpeta Lib (cterm.h, cterm.cpp) al directorio principal de tu proyecto.
+______________________________________________________________________________________________________________________________________
+
 La función **CPRINT()** recibe los siguientes valores:
 
 **cprint(Text, ForeGround="blanco", BackGround="null");**

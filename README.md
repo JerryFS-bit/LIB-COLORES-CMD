@@ -23,6 +23,9 @@ La función **CPRINT()** recibe los siguientes valores:
 
 ## Un ejemplo claro es el siguiente :
 ~~~
+#include <iostream>
+#include "cterm.h"
+
 auto main() -> int {
     cprint("TEXTO COLOR AZUL Y FONDO AZUL","azul","blanco");
     cprint("TEXTO COLOR AZUL Y FONDO ROJO","azul","rojo");
@@ -61,3 +64,36 @@ auto main() -> int {
 
 ![IMAGE NOT FOUND](/image/output_main.png)
 
+
+La función **CPRINTP()** recibe los siguientes valores: 
+
+**cprintp(const string &Text, int PosX, int PosY, const string &ForeGround="blanco", const string &BackGround="null");**
+
+* **Text**        -> "Texto que se va a mostrar en consola"
+* **PosX**        -> "Posicion del Texto en el eje X"
+* **PosY**        -> "Posicion del Texto en el eje Y"
+* **ForeGround**  -> "Color de letra que se la va a aplicar"
+* **BackGround**  -> "Color de Fondo que se va a aplicar"
+
+## Un ejemplo claro es el siguiente :
+
+~~~
+#include <iostream>
+#include "cterm.h"
+
+auto main() -> int {
+    cprintp("JERRYFS-BIT",10,1,"blanco","azul");
+    cprintp("JERRYFS-BIT",11,2,"blanco","rojo");
+    cprintp("JERRYFS-BIT",12,3,"blanco","verde");
+    cprintp("JERRYFS-BIT",13,4,"blanco","azul cielo");
+    cprintp("JERRYFS-BIT",14,5,"blanco","morado");
+    
+    system("pause > NULL");
+    return 0;
+}
+~~~
+
+
+## La salida en consola será la siguiente:
+
+![IMAGE NOT FOUND](/image/output2_main.png)

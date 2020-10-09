@@ -7,6 +7,7 @@ La función **CPRINT()** recibe los siguientes valores:
 
 **cprint(Text, ForeGround="blanco", BackGround="null");**
 
+los valores de **ForeGround** y **BackGround** tienen un valor predeterminado, por lo que no es necesario completar esos campos.
 * **Text**        -> "Texto que se va a mostrar en consola"
 * **ForeGround**  -> "Color de letra que se la va a aplicar"
 * **BackGround**  -> "Color de Fondo que se va a aplicar"
@@ -66,6 +67,8 @@ auto main() -> int {
 La función **CPRINTP()** recibe los siguientes valores: 
 
 **cprintp(Text, PosX, PosY, ForeGround="blanco", BackGround="null");**
+
+los valores de **ForeGround** y **BackGround** tienen un valor predeterminado, por lo que no es necesario completar esos campos.
 
 * **Text**        -> "Texto que se va a mostrar en consola"
 * **PosX**        -> "Posicion del Texto en el eje X"
